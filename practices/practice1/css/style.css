@@ -1,0 +1,143 @@
+* {
+  background-color: ghostwhite;
+  color: black;
+  font-family: "Cuprum", sans-serif;
+}
+
+h3 {
+  color: rgb(30, 46, 109);
+  font-size: 23px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: 1px solid rgb(30, 46, 109);
+  margin-right: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+ul {
+  font-size: 18px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+#name {
+  color: rgb(30, 46, 109);
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+img {
+  border-radius: 50%;
+  border: 1px solid rgba(30, 46, 109, 0.3);
+  width: 230px;
+  height: 230px;
+}
+
+.name_photo {
+  margin-top: 30px;
+}
+
+.for-columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-column {
+  width: 300px;
+  padding-left: 35px;
+  padding-bottom: 35px;
+  margin-left: 70px;
+  background-color: gainsboro;
+}
+
+.left-column * {
+  background-color: gainsboro;
+}
+
+.langbar {
+  width: 40%;
+  height: 20px;
+  background-color: ghostwhite;
+  border-radius: 50px;
+}
+
+.langbar-1,
+.langbar-2,
+.langbar-3,
+.langbar-4 {
+  height: 20px;
+  border-radius: 50px;
+  background-color: darkcyan;
+}
+
+.langbar-2 {
+  width: 75%;
+}
+
+.langbar-3,
+.langbar-4 {
+  width: 30%;
+}
+
+.right-column {
+  margin-top: 10px;
+  margin-left: 100px;
+  width: 650px;
+}
+
+.subhead {
+  color: darkcyan;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.place {
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.time {
+  font-style: italic;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  width: 300px;
+  padding-left: 35px;
+  padding-bottom: 20px;
+  margin-left: 70px;
+}
+
+#name_surname {
+  width: 70%;
+  height: 20px;
+  font-size: 15px;
+}
+
+#feedback {
+  width: 90%;
+  height: 120px;
+  font-size: 15px;
+}
+
+#rate {
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+#submit,
+#reset {
+  width: 60px;
+  height: 30px;
+}
