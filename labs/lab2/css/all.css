@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+* {
+  font-family: "Ubuntu", sans-serif;
+  background-color: rgb(229, 252, 240);
+  color: black;
+}
+
+.heading * {
+  color: navy;
+  text-align: center;
+}
+
+.container {
+  margin-top: 90px;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  background-color: navy;
+  border: 1px solid rgb(63, 96, 146);
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-left: 90px;
+  padding: 0;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.nav-bar li {
+  float: left;
+  border-right: 1px solid beige;
+  text-align: center;
+}
+
+.nav-bar li:last-child {
+  border-right: none;
+}
+
+.nav-bar li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  color: beige;
+  background-color: navy;
+}
+
+.nav-bar a:hover {
+  background-color: rgb(112, 128, 134);
+  font-weight: bold;
+}
+
+.nav-bar a.current {
+  background-color: rgb(112, 128, 134);
+  color: beige;
+  font-weight: bold;
+}
+
+p {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+figure {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  transition: transform 0.5s;
+  overflow: hidden;
+}
+
+figure:hover {
+  transform: scale(1.1);
+}
+
+figcaption {
+  font-style: italic;
+}
+
+img {
+  border: 1px solid grey;
+  width: 30%;
+}
+
+ul {
+  margin-left: 40px;
+  margin-right: 60px;
+  list-style-type: square;
+}
+
+/* arm_cars_UA.html */
+
+.UA-car {
+  float: right;
+  margin: 30px 60px 15px;
+  transition: transform 0.5s;
+}
+
+.UA-car:hover {
+  transform: scale(1.1);
+}
+
+.lastP {
+  margin-bottom: 30px;
+}
+
+/* enemy.html */
+
+#warning,
+.attention {
+  color: red;
+}
+
+#warning {
+  margin-bottom: 30px;
+}
+
+hr {
+  border: 1px solid rgb(117, 19, 19);
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.AC-name {
+  color: rgb(117, 19, 19);
+}
+
+.how-to-identify {
+  text-decoration: underline;
+}
+
+.AC-name,
+.how-to-identify {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* footer */
+
+.footer {
+  margin-top: 30px;
+  margin-left: 60px;
+  font-weight: bold;
+}
