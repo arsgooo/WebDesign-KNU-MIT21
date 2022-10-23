@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphones</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Logo -->
+        <a href="#" class="logo">
+            <img src="./img/hp_logo.png" alt="" />
+        </a>
+        <!-- Navbar -->
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#headphones">Headphones</a></li>
+        </ul>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Welcome to the website <br> about headphones!</h1>
+            <a href="#headphones" class="btn">Press here to see our proposals</a>
+        </div>
+        <div class="home-img">
+            <img src="./img/home.png" alt="">
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="about-text">
+            <h2>About</h2>
+            <p>We are eager to familiarize you with different types of headphones. To be honest, we have never heard
+                about some of them before the creation of this website &#129325;</p>
+            <img src="./img/man.jpg" class="about-img" alt="Man wearing headphones">
+        </div>
+    </section>
+
+    <!-- Headphones -->
+    <section class="headphones" id="headphones">
+        <div class="headphones-text">
+            <h2>Headphones</h2>
+        </div>
+        <div class="btn-for-items">
+            <button onclick="buttonClick()" class="btn btn-items">Click to see the items</button>
+        </div>
+        <div class="result" id="result"></div>
+    </section>
+
+    <footer>
+        <b>&copy;2022</b> Developed by ArsGooo | All Rights Reserved!
+    </footer>
+</body>
+
+<script src="./js/main.js"></script>
+
+</html>

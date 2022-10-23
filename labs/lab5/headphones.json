@@ -1,0 +1,34 @@
+{
+  "headphones": [
+    {
+      "id": 1,
+      "title": "Hoco ES50",
+      "type": "Bone conduction",
+      "image_link": "./img/hoco_es50.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Marshall Mode EQ",
+      "type": "Vacuum",
+      "image_link": "./img/marshall.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Bloody M70",
+      "type": "TWS",
+      "image_link": "./img/bloody_m70.jpg"
+    },
+    {
+      "id": 4,
+      "title": "JBL JR 310 BT",
+      "type": "Over-ear",
+      "image_link": "./img/jbl.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Panasonic RB-HF420B",
+      "type": "Over-ear",
+      "image_link": "./img/panasonic.jpg"
+    }
+  ]
+}

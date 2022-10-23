@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600;700;800&display=swap");
+
+$main-color: darkblue;
+$bg-color: rgb(234, 247, 234);
+$h-color: rgb(215, 230, 215);
+$hover-color: white;
+
+* {
+  font-family: "Mukta", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+section {
+  padding: 100px;
+
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    color: $main-color;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 1.3em;
+  }
+
+  .about-img {
+    padding-top: 20px;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+img {
+  width: 90%;
+}
+
+body {
+  background-color: $bg-color;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 100px;
+  transition: 0.5s linear;
+  background-color: $h-color;
+
+  .logo {
+    width: 40px;
+  }
+
+  .navbar {
+    display: flex;
+    a {
+      color: $main-color;
+      padding: 8px 17px;
+      font-size: 1rem;
+      text-transform: uppercase;
+      font-weight: 700;
+
+      &:hover {
+        background-color: $hover-color;
+        border-radius: 0.2rem;
+        transition: 0.2s linear;
+      }
+    }
+  }
+}
+
+.home {
+  width: 100%;
+  min-height: 110vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+  align-items: center;
+  gap: 1.5rem;
+
+  .home-text h1 {
+    color: $main-color;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+  }
+
+  .home-img {
+    border-radius: 0.5rem;
+    margin-left: 100px;
+  }
+}
+
+.btn {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 0.3rem;
+  background-position: var(--main-color);
+  background-color: $main-color;
+  color: $bg-color;
+  font-weight: 500;
+
+  &:hover {
+    background-color: $hover-color;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+
+  &-for-items {
+    padding-top: 10px;
+    text-align: center;
+  }
+}
+
+.result {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+  text-align: center;
+  gap: 1.3rem;
+
+  span {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0 1.1rem;
+  }
+
+  img {
+    border-radius: 0.8rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    height: 370px;
+  }
+}
+
+footer {
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
